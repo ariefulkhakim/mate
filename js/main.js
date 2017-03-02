@@ -1,12 +1,20 @@
+// ==============================================
+// Theme Name : MATE || Portfolio Templete Simple
+// Author     : Arieful Khakim
+// Url        : ariefulkhakim.github.io/mate
+// ==============================================
+
 (function($) {
     'use strict';
 
     jQuery(document).ready(function(){
 
     // Preloader
-    $(window).on('load', function() {
-        $('.preloader').fadeOut();
-        $('.preloader-area').delay(350).fadeOut('slow');
+    $('#preloader').fakeLoader({
+        timeToHide: 1500,
+        zIndex: 999999,
+        spinner: 'spinner6',
+        bgColor: '#e24331',
     });
 
     // Smooth Scroll
@@ -44,13 +52,13 @@
 
     // Counter Up
 
-    $(".timeline-number").counterUp({
-            time: 2000,
-            delay: 10
-        });
+    $('.timeline-number').counterUp({
+        delay: 100,
+        time: 2000
+    });
 
     // wow
-    new WOW().init();
+    // new WOW().init();
    
     });
 })(jQuery); 

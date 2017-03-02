@@ -590,7 +590,7 @@ ul > li > a {
     color: #777;
     font-weight: 100;
     margin: 30px 0 0;
-    padding: 40px 20px;
+    padding: 20px 30px;
     position: relative;
     text-align: center;
     transition: background-color 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
@@ -887,187 +887,28 @@ ul > li > a {
 
 /*Responsive Mobile*/
 
-@media only screen and (min-width: 320px) {
-  .timeline .timeline-list li {
-    margin: 9px 3px;
-  }
-}
-
 @media only screen and (max-width: 780px) {
-  .timeline .timeline-list {
-    margin: 0px 55px;
-  }
+    .footer .copy-right {
+        text-align: center;
+    }
 
-  .timeline .timeline-list li {
-    margin: 9px 23px;
-  }
-}
-/*.portfolio-filter {
-  margin: 0;
-  padding-left: 15px;
-  list-style: none;
-  margin-bottom: 50px;
-}
+    .footer .footer-icon ul {
+      margin-left: -40px;
+    }
 
-.portfolio-filter li {
-  display: inline-block;
-  margin-right: 10px;
-}
+    .scrollup {
+      bottom: 95px;
+      right: 15px;
+    }
 
-.portfolio-filter li a {
-  padding: 12px 22px;
-  border: 1px solid #ababab;
-  color: #ababab;
-  font-size: inherit;
-  line-height: 10px;
-  color: #000;
-  font-weight: 600;
-  letter-spacing: 0.05em;
+    .btn-work {
+      font-size: 11px;
+      padding: 5px 15px;
+    }
+
+    .footer .footer-icon ul li {
+      margin: 5px 2px;
+    }
 }
 
-.portfolio-filter li a:hover, .portfolio-filter li a:focus {
-  color: #FFF;
-  background: #f45c27;
-  border-color: transparent;
-  text-decoration: none;
-}
-
-.portfolio-filter li:first-child a {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-.portfolio-filter li:last-child a {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.gp-portfolio-gallery {
-  margin-bottom: 40px;
-}
-
-.gp-portfolio-item {
-  width: 33%;
-  padding: 10px;
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
-}
-
-.gp-portfolio-item img {
-  width: 100%;
-}
-
-.gp-portfolio-item.width-hulp {
-  width: 66%;
-}
-
-.inner {
-  position: relative;
-  overflow: hidden;
-}
-
-.inner img {
-  -ms-transform: scale(1);
-      transform: scale(1);
-  transition: all 0.3s ease-in-out;
-}
-
-.inner .portfolio-overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(244, 92, 39, 0.8);
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.inner .portfolio-overlay h3 {
-  position: absolute;
-  left: -70px;
-  top: 50%;
-  -ms-transform: rotate(-90deg) translateY(-50%);
-      transform: rotate(-90deg) translateY(-50%);
-  margin: 0;
-  transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
-  color: #FFF;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.1em;
-}
-
-.inner .portfolio-overlay .option {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-}
-
-.inner .portfolio-overlay .option a {
-  text-align: center;
-  height: 40px;
-  width: 40px;
-  background: #ededed;
-  color: #000;
-  line-height: 48px;
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
-  margin-right: 5px;
-}
-
-.inner .portfolio-overlay .option a:hover {
-  background: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-.inner .portfolio-overlay .option a:first-child {
-  -ms-transform: translateY(-20px);
-      transform: translateY(-20px);
-}
-
-.inner .portfolio-overlay .option a:last-child {
-  -ms-transform: translateY(20px);
-      transform: translateY(20px);
-}
-
-.inner:hover img {
-  -ms-transform: scale(1.1);
-      transform: scale(1.1);
-}
-
-.inner:hover .portfolio-overlay {
-  opacity: 1;
-  -ms-transform: scale(1);
-      transform: scale(1);
-}
-
-.inner:hover .portfolio-overlay:before {
-  height: 40px;
-}
-
-.inner:hover .portfolio-overlay:after {
-  width: 40px;
-}
-
-.inner:hover .portfolio-overlay h3 {
-  left: 0;
-}
-
-.inner:hover .portfolio-overlay a:first-child {
-  -ms-transform: translateY(0);
-      transform: translateY(0);
-}
-
-.inner:hover .portfolio-overlay a:last-child {
-  -ms-transform: translateY(0);
-      transform: translateY(0);
-}
-*/
 

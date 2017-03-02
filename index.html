@@ -17,6 +17,8 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Fakeloader -->
+	<link rel="stylesheet" href="css/fakeLoader.css">
 	<!-- Animate -->
 	<link rel="stylesheet" href="css/animate.min.css">
 	<!-- Style -->
@@ -33,9 +35,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!-- Preloader -->
-<div class="preloader">
-    <div class="spinner"></div>
-</div> <!-- preloader-end -->
+<div id="preloader"></div> <!-- preloader-end -->
 
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -74,7 +74,7 @@
 						</a>
 					</h3>
 					<a class="btn btn-home" href="#">Read More</a>
-					<div class="mouse"></div>
+					<div class="mouse hidden-xs"></div>
 				</div>
 			</div>
 		</div>
@@ -479,12 +479,13 @@
 	<!-- Progress Bar -->
 	<script src="js/progress.js"></script>
 	<!-- Easing -->
-	<script src="js/easing.1.3.js"></script>
+	<script src="js/fakeLoader.js"></script>
 	<!-- mixitup -->
 	<script src="js/magnific-popup.min.js"></script>
 	<!-- Wow -->
 	<script src="js/wow.js"></script>
 	<!-- Counter Up -->
+	<script src="js/waypoints.min.js"></script>
 	<script src="js/counterup.min.js"></script>
 	<!-- Typewriter -->
 	<script src="js/typewriter.js"></script>
